@@ -1,0 +1,18 @@
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+body { width: 290px; margin: 0; }
+main { padding: 16px; }
+h1 { font-size: 17px; margin: 0 0 8px; }
+.tab-title { margin: 0 0 18px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px; opacity: .75; }
+.volume-heading, .scale { display: flex; justify-content: space-between; }
+.volume-heading { align-items: baseline; font-size: 13px; font-weight: 600; }
+output { font-variant-numeric: tabular-nums; font-size: 18px; }
+input[type="range"] { width: 100%; margin: 13px 0 5px; accent-color: #3574d4; }
+.scale { font-size: 11px; opacity: .65; }
+.number-row { display: flex; align-items: center; justify-content: space-between; margin-top: 15px; font-size: 13px; }
+.number-input { display: flex; align-items: center; gap: 5px; }
+.number-input input { box-sizing: border-box; width: 105px; padding: 5px 6px; font: inherit; font-variant-numeric: tabular-nums; }
+button { width: 100%; margin-top: 18px; padding: 9px; border: 0; border-radius: 6px; background: #3574d4; color: white; font-weight: 600; cursor: pointer; }
+button:disabled { opacity: .55; cursor: default; }
+#status { min-height: 1.3em; margin: 10px 0 0; font-size: 12px; }
+#status.error { color: #bc3030; }
+.hint { margin: 8px 0 0; font-size: 11px; opacity: .7; }

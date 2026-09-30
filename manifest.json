@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Volume Boost",
+  "version": "1.0.0",
+  "description": "Adjust and boost the audio of each tab independently.",
+  "minimum_chrome_version": "116",
+  "permissions": ["activeTab", "tabCapture", "offscreen"],
+  "action": {
+    "default_title": "Tab Volume Boost",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
